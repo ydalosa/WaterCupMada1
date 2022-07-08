@@ -9,7 +9,20 @@
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-color: blue;
+    border-radius: 50% 0% 50% 0%;
+    transform: scaleX(1.1);
 }
+/* #banner::before{
+    content: "";
+    position:absolute;
+    height: 100vh;
+    z-index: 2;
+    border-radius: 0% 0% 50% 0%;
+    transform: scaleX(1.5);
+    background-color: blue;
+} */
+
 .logo{
     width: 70px;
     position: absolute;
@@ -213,6 +226,9 @@ nav ul li a{
     margin-bottom: 20px;
     color: #ADFF2F;
     position:relative;
+    border: 5px solid blue;
+    border-image: linear-gradient(180deg, #f7ff00, #db36a4);
+    border-image-slice: 1;
 }
 .single-service img{
     width: 100%;
@@ -326,7 +342,7 @@ hr{
 /* footer */
 
 #footer{
-    padding: 100px 0 20px;
+    padding: 30px 0 20px;
     background: whitesmoke;
     position: relative;
 }
@@ -406,8 +422,9 @@ hr{
     width: var(--size);
     height: var(--size);
     transform-style: preserve-3d;
-    /* transform: rotateY(30deg) rotateZ(30deg); */
+    transform: rotateY(30deg) rotateZ(30deg);
     animation: spin 30s infinite linear;
+   
 }
 .side{
     position: absolute;
