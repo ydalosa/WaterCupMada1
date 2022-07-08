@@ -203,6 +203,8 @@ nav ul li a{
     width: 100%;
     padding: 70px 0;
     background: #ADFF2F;
+     border-radius: 50% 0% 50% 0%;
+    transform: scaleX(1.1);
 }
 .service-box{
     width: 40%;
@@ -337,6 +339,8 @@ hr{
     padding: 30px 0 20px;
     background: whitesmoke;
     position: relative;
+     border-radius: 50% 50% 0% 0%;
+    transform: scaleX(1.1);
 }
 .footer-row{
     width: 80%;
