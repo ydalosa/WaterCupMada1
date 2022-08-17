@@ -2,10 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Open sans, Helvetica,Cambria , Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #banner{
-    background: linear-gradient(rgba(241, 241, 245, 0.4),#000),url(madagascar52.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.2)),url(madagascar52.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -13,7 +13,6 @@
     border-radius: 50% 0% 50% 0%;
     transform: scaleX(1.1);
 }
-
 
 .logo{
     width: 70px;
@@ -28,7 +27,7 @@
 }
 .banner-text h1{
    font-size:  50px;
-   font-family: Arial, Helvetica, sans-serif;
+   font-family:  Helvetica, sans-serif;
 }
 .banner-text p{
    font-size: 20px;
@@ -85,7 +84,8 @@ nav ul li{
 }
 nav ul li a{
    text-decoration: none;
-   color:#ADFF2F;
+   color: yellow;
+   font-size: large;
    box-shadow: 1px 1px 1px rgba(0,0,0,0.9);
 }
 #menuBtn{
@@ -156,6 +156,9 @@ nav ul li a{
 .features{
     flex-basis: 50%;
 }
+.feature-text{
+    color: #545454;
+}
 .features-img{
     flex-basis: 50%;
     margin: auto;
@@ -169,6 +172,9 @@ nav ul li a{
     margin-bottom: 10px;
     font-weight: 50 bolder;
     color: #ADFF2F;
+}
+#renfort{
+    font-weight: 200;
 }
 .features-desc{
     display: flex;
@@ -203,7 +209,7 @@ nav ul li a{
     width: 100%;
     padding: 70px 0;
     background: #ADFF2F;
-     border-radius: 50% 0% 50% 0%;
+    border-radius: 50% 0% 50% 0%;
     transform: scaleX(1.1);
 }
 .service-box{
@@ -218,7 +224,7 @@ nav ul li a{
     text-align: center;
     border-radius: 8px;
     margin-bottom: 20px;
-    color: #ADFF2F;
+    color: white;
     position:relative;
     border: 5px solid blue;
     border-image: linear-gradient(180deg, #f7ff00, #db36a4);
@@ -247,7 +253,7 @@ nav ul li a{
     position: absolute;
     bottom: 0;
     left: 50%;
-    opacity: 0;
+    opacity: 0.1;
     transform: translateX(-50%);
     transition: 1s;
 }
@@ -304,6 +310,7 @@ hr{
 }
 .testimonial-col p{
     font-size: 14px;
+    color: #545454;
 }
 .user{
     display: flex;
@@ -339,7 +346,7 @@ hr{
     padding: 30px 0 20px;
     background: whitesmoke;
     position: relative;
-     border-radius: 50% 50% 0% 0%;
+    border-radius: 50% 50% 0% 0%;
     transform: scaleX(1.1);
 }
 .footer-row{
