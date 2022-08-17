@@ -1,267 +1,481 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>WaterCupMada1</title>
-</head>
-<body>
-    <section id="banner">
-        <img src="WCMdef.png" class="logo" alt="">
-        <div class="banner-text">
-            <h1>Amboaram-Pokonolon'ny Rano</h1>
-            <p>Water Cup Madagascar </p>
-            <div class="banner-btn">
-                <a href="#"><span></span>Faire un Don</a>
-                <a href="#"><span></span>Nous contacter</a>
-            </div>
-        </div>
-    </section>
-    <div id="sideNav">
-        <nav>
-            <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="index1.html">Ambovombe</a></li>
-                <li><a href="index2.html">Itasy</a></li>
-                <li><a href="index3.html">Ankazobe</a></li>
-                <li><a href="index4.html">Mahajanga</a></li>
-                <li><a href="index5.html">Fianarantsoa</a></li>
-                <li><a href="index6.html">Vakinankaratra</a></li>
-                <li><a href="index7.html">Diego</a></li>
-                <li><a href="index8.html">Analamanga</a></li>
-                <li><a href="index9.html">Tuléar</a></li>
-                <li><a href="index10.html">Moramanga</a></li>
-            </ul>
-        </nav>
-    </div>
-    <div id="menuBtn">
-        <img src="menu4.jpg" id="menu">
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Open sans, Helvetica,Cambria , Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.2)),url(madagascar52.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-color: blue;
+    border-radius: 50% 0% 50% 0%;
+    transform: scaleX(1.1);
+}
 
-        <!-- Features -->
-    </div>
-    <section id="feature">
-        <div class="title-text">
-            <p>MPITARIKA</p>
-            <br>
-            <br>
-            <br>
-            <h1>Mamy Rasolofondrainibe</h1>
-            <br>
-            <br>
-            <br>
-        </div>
-        <div class="feature-box">
-            <div class="features">
-                <h1>Les Mots du Chef de l'Executif</h1>
-                <div class="features-desc">
-                    <div class="feature-icon">
-                        <i class="fa fa-shield"></i>
-                    </div>
-                    <div class="feature-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quas.</p>
-                    </div>
-                </div>
-                <h1>Les Objectifs du Water Cup Madagascar</h1>
-                <div class="features-desc">
-                    <div class="feature-icon">
-                       
-                    <i class="fa fa-check-square-o"></i>
-                    </div>
-                    <div class="feature-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quas.</p>
-                    </div>
-                </div>
-                <h1>Les Devises du Water Cup Madagascar</h1>
-                <div class="features-desc">
-                    <div class="feature-icon">
-                        <i class="fa fa-inr"></i>
-                    </div>
-                    <div class="feature-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quas.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="features-img">
-                <img src="FilohaMpanatanterakaMamyRasolofondraibe.jpg" alt="">
-            </div>
-        </div>
-    </section>
+.logo{
+    width: 70px;
+    position: absolute;
+    top: 3%;
+    left: 10%;
+}
+.banner-text{
+    text-align: center;
+    color: #ADFF2F;
+    padding-top: 350px;
+}
+.banner-text h1{
+   font-size:  50px;
+   font-family:  Helvetica, sans-serif;
+}
+.banner-text p{
+   font-size: 20px;
+   font-style: italic;
+}
+.banner-btn{
+    margin: 70px auto 0;
+}
+.banner-btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 20px;
+    padding: 12px 0;
+    color: #ADFF2F;
+    border: 0.5px solid #ADFF2F;
+    border-radius: 25%;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+}
+.banner-btn a span{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    border-radius: 15%;
+    top: 0;
+    left: 0;
+    background: #ADFF2F;
+    z-index: -1;
+    transition: 0.5s;
+}
+.banner-btn a:hover span{
+    width: 100%;
+}
+.banner-btn a:hover{
+    color: #000;
+}
+#sideNav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background: transparent;
+    z-index: 2;
+    transition: 0.5s;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 30px;
+    
 
-    <!-- services -->
-    <section id="service">
-        <div class="title-text">
-            <p></p>
-            <h1>Mpanampy</h1>
-            <br>
-            <br>
-            <br>
-        </div>
-        <div class="service-box">
-            <div class="single-service">
-                <img src="MmeLantoniainaRazafindramiadana.jpg" >
-                <div class="overlay"></div>
-                <div class="service-desc">
-                    <h3>Mme Lantoniaina Razafindramiadana</h3>
-                    <hr>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam assumenda at alias fugiat aut.</p>
-                </div>
-            </div>
-        <div class="service-box">
-            <div class="single-service">
-                <img src="HanitriniainaAPR1.jpg" >
-                <div class="overlay"></div>
-                <div class="service-desc">
-                    <h3>Hanitriniaina APR1</h3>
-                    <hr>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam assumenda at alias fugiat aut.</p>
-                </div>
-            </div>
-            <div class="single-service">
-                <img src="MmeLeaFanihia.jpg" >
-                <div class="overlay"></div>
-                <div class="service-desc">
-                    <h3>Mme Lea Fanihia</h3>
-                    <hr>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam assumenda at alias fugiat aut.</p>
-                </div>
-            </div>
-            <div class="single-service">
-                <img src="MmeRabakoharinanjanaharyClarisse.jpg" >
-                <div class="overlay"></div>
-                <div class="service-desc">
-                    <h3>Mme Rabakoharinanjanahary Clarisse</h3>
-                    <hr>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam assumenda at alias fugiat aut.</p>
-                </div>
-            </div>
-            <div class="single-service">
-                <img src="BenjaAPR1.jpg" >
-                <div class="overlay"></div>
-                <div class="service-desc">
-                    <h3>Mr Benja APR1</h3>
-                    <hr>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam assumenda at alias fugiat aut.</p>
-                </div>
-            </div>
-            <div class="single-service">
-                <img src="ArmelleAPR1.jpg" >
-                <div class="overlay"></div>
-                <div class="service-desc">
-                    <h3>Mr Armelle APR1</h3>
-                    <hr>
-                    <p>" Olan'ny rano amin'ny famokarana ve? Ny CCT no vahaolana mahomby."</p>
-                </div>
-            </div>
-            <div class="single-service">
-                <img src="MmeTianaAndriatsimijay.jpg" >
-                <div class="overlay"></div>
-                <div class="service-desc">
-                    <h3>Mme Tiana Andriatsimijay</h3>
-                    <hr>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam assumenda at alias fugiat aut.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+}
+nav ul li a{
+   text-decoration: none;
+   color: yellow;
+   font-size: large;
+   box-shadow: 1px 1px 1px rgba(0,0,0,0.9);
+}
+#menuBtn{
+    width: 50px;
+    height: 50px;
+    background: #ADFF2F;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+#menuBtn img{
+    width: 20px;
+    margin-top: 15px;
+}
+@media screen and (max-width: 770px){
+    .banner-text h1{
+        font-size: 80px;
 
-    <!-- testimonial -->
+    }
+    .banner-btn a{
+        display: block;
+        margin: 20px auto;
+    }
+}
+.title-text{
+    text-align: center;
+    padding-bottom: 0px;
+    margin-top: 120px;
+}
+.title-text p{
+    margin: auto;
+    font-size: 20px;
+    color: #ADFF2F;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+.title-text p::after{
+    content:'';
+    width: 94px;
+    height: 35px;
+    background: linear-gradient(#ADFF2F, #fff);
+    position: absolute;
+    top:-20px;
+    transform: rotate(5deg);
+    left: 0;
+    z-index: -1;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px ;
+}
 
-    <section id="testimonial">
-        <div class="title-text">
-            
-            <p>Témoignages</p>
-            <br>
-            <br>
-            <br>
-            <h1>Les gens parlent de nous</h1>
-        </div>
-        <div class="testimonial-row">
-            <div class="testimonial-col">
-                <div class="user">
-                    <img src="VeroRAKOTOMALALA.jpg" >
-                    <div class="user-info">
-                        <h4>Vero RAKOTOMALALA <i class='fa fa-facebook'></i></h4>
-                        <small>@fb</small>
-                    </div>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia quis perferendis reprehenderit vero dolorem iure quaerat assumenda, distinctio eaque ab!</p>
-            </div>
-            <div class="testimonial-col">
-                <div class="user">
-                    <img src="LalàMoto.jpg" >
-                    <div class="user-info">
-                        <h4>Lalà MOTO <i class='fa fa-facebook'></i></h4>
-                        <small>@fb</small>
-                    </div>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit ipsam aliquam voluptates reprehenderit quo amet est et animi asperiores quisquam eos non, fugit ad blanditiis consequuntur tenetur a deleniti, modi nam quae cumque odit! Cumque nostrum a perspiciatis laudantium blanditiis.</p>
-            </div>
-            <div class="testimonial-col">
-                <div class="user">
-                    <img src="AinaRABARY.jpg" >
-                    <div class="user-info">
-                        <h4>Aina RABARY <i class='fa fa-facebook'></i></h4>
-                        <small>@fb</small>
-                    </div>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia quis perferendis reprehenderit vero dolorem iure quaerat assumenda, distinctio eaque ab!</p>
-            </div>
-        </div>
-    </section>
+.title-text h1{
+    font-size: 50px;
+}
+.feature-box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.features{
+    flex-basis: 50%;
+}
+.feature-text{
+    color: #545454;
+}
+.features-img{
+    flex-basis: 50%;
+    margin: auto;
+}
+.features-img img{
+    width: 70%;
+    border-radius: 10px;
+}
+.features h1{
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 50 bolder;
+    color: #ADFF2F;
+}
+#renfort{
+    font-weight: 200;
+}
+.features-desc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.feature-icon .fa{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    border-radius: 8px;
+    color: #ADFF2F;
+    border: 1px solid #ADFF2F;
+}
+@media screen and (max-width: 770px){
+    .title-text h1{
+        font-size: 35px;
+    }
+    .features{
+        flex-basis: 100%;
+    }
+    .features-img{
+        flex-basis: 100%;
+    }
+    .features-img img{
+        flex-basis: 100%;
+    }
+}
+/* service */
+#service{
+    width: 100%;
+    padding: 70px 0;
+    background: #ADFF2F;
+    border-radius: 50% 0% 50% 0%;
+    transform: scaleX(1.1);
+}
+.service-box{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.single-service{
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: white;
+    position:relative;
+    border: 5px solid blue;
+    border-image: linear-gradient(180deg, #f7ff00, #db36a4);
+    border-image-slice: 1;
+}
+.single-service img{
+    width: 100%;
+    border-radius: 8px;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    background: linear-gradient(rgba(0,0,0,0.2),#ADFF2F);
+    opacity: 0;
+    transition: 1s;
+}
+.single-service:hover .overlay{
+    opacity: 1;
+}
+.service-desc{
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    opacity: 0.1;
+    transform: translateX(-50%);
+    transition: 1s;
+}
+hr{
+    background: whitesmoke;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 60%;
+}
+.service-desc p{
+    font-size: 14px;
+}
+.single-service:hover .service-desc{
+    bottom:58%;
+    opacity: 1;
+}
+@media screen and (max-width: 770px){
+    .single-service{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .service-desc p{
+        font-size: 12px;
+    }
+    hr{
+        margin: 5px auto;
+    }
+    .single-service:hover .service-desc{
+        bottom: 52% !important;
+    }
+}
+/* testimonial */
 
-    <!-- footer -->
+#testimonial{
+    width: 100%;
+    padding: 70px 0;
+}
+.testimonial-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.testimonial-col{
+    flex-basis: 28px;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px 3px whitesmoke;
+    cursor: pointer;
+}
+.testimonial-col p{
+    font-size: 14px;
+    color: #545454;
+}
+.user{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.user img{
+    width: 100px;
+    margin-right: 20px;
+    border-radius: 3px;
+}
 
-    <section id="footer">
-       
-<!-- nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn -->
+.user-info .fa{
+    margin-left: 10px;
+    color: #ADFF2F;
+    font-size: 20px;
+}
+.user-info small{
+    color: #ADFF2F;
+}
+.testimonial-col:hover{
+    transform: translateY(-7px);
+}
+@media screen and (max-width: 770px){
+    .testimonial-col{
+        flex-basis: 100%;
+    }
+}
+
+/* footer */
+
+#footer{
+    padding: 30px 0 20px;
+    background: whitesmoke;
+    position: relative;
+    border-radius: 50% 50% 0% 0%;
+    transform: scaleX(1.1);
+}
+.footer-row{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-left,
+.footer-right{
+    flex-basis: 45%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.footer-right{
+    text-align: right;
+}
+.footer-row h1{
+    margin: 10px 0;
+}
+.footer-row p{
+    line-height: 35px;
+}
+.footer-left .fa,
+.footer-right .fa{
+    font-size: 20px;
+    color: #ADFF2F;
+    margin: 10px;
+}
+.footer-img{
+    max-width: 370px;
+    opacity: 0.8;
+    position: absolute;
+    left: 50%;
+    top: 52%;
+    transform: translate(-50%, -50%);
+}
+.social-links{
+    text-align: center;
+}
+.social-links .fa{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid #ADFF2F;
+    margin: 40px 5px 0;
+    color: #ADFF2F;
+    transition: .5s;
+}
+.social-links .fa:hover{
+    background: #ADFF2F;
+    color: whitesmoke;
+    transform: translateY(-7px);
+}
+.social-links p{
+    font-size: 12px;
+    margin-top: 20px;
+}
+@media screen and (max-width: 770px){
+    .footer-left,.footer-right{
+        flex-basis: 100%;
+        font-size: 14px;
+    }
+}
+
+/* nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn */
+
+:root{
+    --size: 200px;
+}
+
+.cube{
+    margin: 12rem auto 0;
+    width: var(--size);
+    height: var(--size);
+    transform-style: preserve-3d;
+    transform: rotateY(30deg) rotateZ(30deg);
+    animation: spin 30s infinite linear;
+   
+}
+.side{
+    position: absolute;
+    opacity: 0.8;
+    width: var(--size);
+    height: var(--size);
+}
+#front{
+    background: url(FilohaMpanatanterakaMamyRasolofondraibe.jpg) no-repeat center/cover;
+    transform: translateZ(calc(var(--size) / 2));
+}
+#top{
+    background: url(MmeLantoniainaRazafindramiadana.jpg) no-repeat center/cover;
+    transform: rotateX(-270deg) translateY(calc(-1 * (var(--size) / 2)));
+    transform-origin: top center;
+}
+#bottom{
+    background: url(MmeLeaFanihia.jpg) no-repeat center/cover;
+    transform: rotateX(270deg) translateY(calc(var(--size) / 2));
+    transform-origin: bottom center;
+}
+#right{
+    background: url(MmeRabakoharinanjanaharyClarisse.jpg) no-repeat center/cover;
+    transform: rotateY(-270deg) translateX(calc(var(--size) / 2));
+    transform-origin: top right;
+}
+#left{
+    background: url(MmeTianaAndriatsimijay.jpg) no-repeat center/cover;
+    transform: rotateY(270deg) translateX(calc(-1 *(var(--size) / 2)));
+    transform-origin: center left;
+}
+#back{
+    background: url(PasteurAlainDeNeriAndrianantenaina.jpg) no-repeat center/cover;
+    transform: rotateY(-180deg) translateZ(calc((var(--size) /2)));
+}
+@keyframes spin{
+    from{
+        transform: rotateX(0) rotateY(0) rotateZ(0);
+    }
+    to{
+        transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+    }
+}
 
 
 
 
-<div class="cube">
-    <div class="side" id="front"></div>
-    <div class="side" id="bottom"></div>
-    <div class="side" id="top"></div>
-    <div class="side" id="left"></div>
-    <div class="side" id="right"></div>
-    <div class="side" id="back"></div>
-</div>
-
-<!-- nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn -->
 
 
 
 
-
-     
-        <div class="title-text">
-            <p>CONTACT</p>
-            <h1>`</h1>
-        </div>
-        <div class="footer-row">
-            <div class="footer-left">
-                <h1>Heure d'ouverture</h1>
-                <p><i class="fa fa-clock-o"></i>Lundi-Vendredi - 9h00 à 18h00</p>
-                <p><i class="fa fa-clock-o"></i>Samedi - 9h00 à 11h00</p>
-            </div>
-            <div class="footer-right">
-                <h1>Venir nous voir</h1>
-                <p><i class="fa fa-map-marker"></i>3 rue pierre brossolette, Yerres</p>
-                <p><i class="fa fa-paper-plane"></i>example@website.com</p>
-                <p><i class="fa fa-phone"></i>06 52 52 52 52</p>
-            </div>
-        </div>
-        <div class="social-links">
-            <i class="fa fa-facebook"></i>
-            <i class="fa fa-instagram"></i>
-            <i class="fa fa-twitter"></i>
-            <i class="fa fa-youtube-play"></i>
-            <p> Copyright © 2022 - Water Cup Madagascar </p>
-        </div>
-    </section>
-    <script src="main.js"></script>
-</body>
-</html>
