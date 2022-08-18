@@ -224,7 +224,7 @@ nav ul li a{
     text-align: center;
     border-radius: 8px;
     margin-bottom: 20px;
-    color: white;
+    color: #FFFAFA;
     position:relative;
     border: 5px solid blue;
     border-image: linear-gradient(180deg, #f7ff00, #db36a4);
