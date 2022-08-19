@@ -23,6 +23,31 @@
 .banner-text{
     text-align: center;
     color: #ADFF2F;
+    color: #ADFF2F;
+    text-shadow: 
+    .1vw 0vw .25vw #ADFF2F,
+    .15vw 0vw .25vw #ADFF2F,
+ 
+    .1vw 0vw .1vw #395016,
+    .15vw 0vw .1vw #395016,
+    .4vw 0vw .1vw #395016,
+ 
+    .1vw 0vw .2vw #395016,
+    .15vw 0vw .2vw #395016,
+    .4vw 0vw .2vw #395016,
+ 
+    .1vw 0vw .1vw #7bb623,
+    .15vw 0vw .1vw #7bb623,
+    .4vw 0vw .5vw #7bb623,
+ 
+    .1vw 0vw .5vw #7bb623,
+    .15vw 0vw .20vw #7bb623,
+    .4vw 0vw .10vw #7bb623,
+ 
+    .1vw 0vw .10vw #7bb623,
+    .15vw 0vw .30vw #7bb623,
+    .4vw 0vw .10vw #7bb623
+    ;
     padding-top: 350px;
 }
 .banner-text h1{
