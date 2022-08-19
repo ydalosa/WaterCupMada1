@@ -48,6 +48,7 @@
     .4vw 0vw .10vw #7bb623
     ;
     padding-top: 350px;
+    z-index: 10;
 }
 .banner-text h1{
    font-size:  50px;
