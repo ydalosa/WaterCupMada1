@@ -111,7 +111,7 @@ nav ul li{
 }
 nav ul li a{
    text-decoration: none;
-   color: yellow;
+   color: #ffee00;
    font-size: large;
    box-shadow: 1px 1px 1px rgba(0,0,0,0.9);
 }
@@ -144,10 +144,16 @@ nav ul li a{
     background-image: url('BoussoleAPR1.jpg');
     min-height: 100%;
 }
+.pimg p{
+    position: relative;
+    color: #fff;
+    font-weight: bolder;
+    left: 100px;
+}
 
 @media screen and (max-width: 770px){
     .banner-text h1{
-        font-size: 80px;
+        font-size: 30px;
 
     }
     .banner-btn a{
@@ -274,11 +280,12 @@ nav ul li a{
 .single-service p{
     color: orange;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: xx-large;
+    font-size: large;
 }
 .single-service img{
     width: 100%;
-    border-radius: 8px;
+    border-radius: 20px;
+    object-fit: fill;
 }
 .overlay{
     width: 100%;
