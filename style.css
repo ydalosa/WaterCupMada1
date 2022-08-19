@@ -253,8 +253,11 @@ nav ul li a{
     flex-basis: 50%;
 }
 .feature-text{
+    position: relative;
     color: #545454;
-}
+    text-align: left;
+    left: 30px;
+    }
 .features-img{
     flex-basis: 50%;
     margin: auto;
