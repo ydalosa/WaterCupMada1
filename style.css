@@ -23,7 +23,6 @@
 .banner-text{
     text-align: center;
     color: #ADFF2F;
-    color: #ADFF2F;
     text-shadow: 
     .1vw 0vw .25vw #ADFF2F,
     .15vw 0vw .25vw #ADFF2F,
@@ -53,10 +52,12 @@
 .banner-text h1{
    font-size:  50px;
    font-family:  Helvetica, sans-serif;
+ 
 }
 .banner-text p{
    font-size: 20px;
    font-style: italic;
+   color: #ADFF2F;
 }
 .banner-btn{
     margin: 70px auto 0;
@@ -130,6 +131,20 @@ nav ul li a{
     width: 20px;
     margin-top: 15px;
 }
+
+.pimg{
+    position: relative;
+    opacity: 0.80;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pimg{
+    background-image: url('BoussoleAPR1.jpg');
+    min-height: 100%;
+}
+
 @media screen and (max-width: 770px){
     .banner-text h1{
         font-size: 80px;
