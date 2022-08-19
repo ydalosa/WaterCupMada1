@@ -230,6 +230,11 @@ nav ul li a{
     border-image: linear-gradient(180deg, #f7ff00, #db36a4);
     border-image-slice: 1;
 }
+.single-service p{
+    color: orange;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
 .single-service img{
     width: 100%;
     border-radius: 8px;
@@ -241,7 +246,7 @@ nav ul li a{
     top: 0;
     border-radius: 8px;
     cursor: pointer;
-    background: linear-gradient(rgba(0,0,0,0.2),#ADFF2F);
+    background: linear-gradient(rgba(0,0,0,0.7),#ADFF2F);
     opacity: 0;
     transition: 1s;
 }
