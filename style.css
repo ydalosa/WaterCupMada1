@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Open sans, Helvetica,Cambria , Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:  'Poppins', sans-serif ,Open sans, Helvetica,Cambria , Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #banner{
     background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.2)),url(madagascar52.jpg);
@@ -240,6 +240,31 @@ nav ul li a{
 
 .title-text h1{
     font-size: 50px;
+    text-shadow: 
+    .1vw 0vw .25vw #ADFF2F,
+    .15vw 0vw .25vw #ADFF2F,
+ 
+    .1vw 0vw .1vw #395016,
+    .15vw 0vw .1vw #395016,
+    .4vw 0vw .1vw #395016,
+ 
+    .1vw 0vw .2vw #395016,
+    .15vw 0vw .2vw #395016,
+    .4vw 0vw .2vw #395016,
+ 
+    .1vw 0vw .1vw #7bb623,
+    .15vw 0vw .1vw #7bb623,
+    .4vw 0vw .5vw #7bb623,
+ 
+    .1vw 0vw .5vw #7bb623,
+    .15vw 0vw .20vw #7bb623,
+    .4vw 0vw .10vw #7bb623,
+ 
+    .1vw 0vw .10vw #7bb623,
+    .15vw 0vw .30vw #7bb623,
+    .4vw 0vw .10vw #7bb623
+    ;
+    z-index: 11;
 }
 .feature-box{
     width: 80%;
