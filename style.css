@@ -4,6 +4,17 @@
     box-sizing: border-box;
     font-family:  'Poppins', sans-serif ,Open sans, Helvetica,Cambria , Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+body{
+    background: #eb3903;
+
+    transition: all 2.5s ease;
+}
+
+.bg-active{
+    background: #2ecc71;
+}
+
+
 #banner{
     background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.2)),url(madagascar52.jpg);
     background-size: cover;
@@ -279,7 +290,7 @@ nav ul li a{
 }
 .feature-text{
     position: relative;
-    color: #545454;
+    color: #fff;
     text-align: left;
     left: 30px;
     }
@@ -464,7 +475,7 @@ hr{
 }
 .testimonial-col p{
     font-size: 14px;
-    color: #545454;
+    color: #FFF;
 }
 .user{
     display: flex;
