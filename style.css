@@ -30,6 +30,13 @@ body{
     position: absolute;
     top: 3%;
     left: 8%;
+    box-shadow: 0 0 0 0 rgb(26, 2, 247);
+    animation: pulse 1.3s infinite;
+}
+@keyframes pulse{
+    to{
+        box-shadow: 0 0 0 18px rgba(26, 2, 247, 0.01);
+    }
 }
 .banner-text{
     text-align: center;
