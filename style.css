@@ -64,8 +64,18 @@ body{
 .banner-text h1{
    font-size:  50px;
    font-family:  Helvetica, sans-serif;
- 
-}
+   animation: apparition 2s ease-out;
+ }
+ @keyframes apparition{
+    from{
+        opacity: 0;
+        transform: translateY(-300px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+ }
 .banner-text p{
    font-size: 20px;
    font-style: italic;
