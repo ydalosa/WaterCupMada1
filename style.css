@@ -7,7 +7,7 @@
 body{
     background: #eb3903;
 
-    transition: all 2.5s ease;
+    transition: all 25s ease;
 }
 
 .bg-active{
@@ -35,7 +35,7 @@ body{
 }
 @keyframes pulse{
     to{
-        box-shadow: 0 0 0 18px rgba(26, 2, 247, 0.01);
+        box-shadow: 0 0 0 18px rgb(26, 2, 247, 0.01);
     }
 }
 .banner-text{
@@ -71,7 +71,7 @@ body{
 .banner-text h1{
    font-size:  50px;
    font-family:  Helvetica, sans-serif;
-   animation: apparition 2s ease-out;
+   animation: apparition 50s ease-out;
  }
  @keyframes apparition{
     from{
@@ -407,7 +407,7 @@ nav ul li a{
     border-image-slice: 1;
 }
 .single-service p{
-    color: orange;
+    color: gold;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
 }
