@@ -71,7 +71,7 @@ body{
 .banner-text h1{
    font-size:  50px;
    font-family:  Helvetica, sans-serif;
-   animation: apparition 50s ease-out;
+   animation: apparition 10s ease-out;
  }
  @keyframes apparition{
     from{
