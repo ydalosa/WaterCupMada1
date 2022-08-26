@@ -15,19 +15,20 @@ body{
 }
 .container{
     display: flex;
-}
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.8)),url(BoulesRandom1.png);
+        }
 
 #banner{
     background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.2)),url(Madagascar221.png);
     background-size: cover;
-    /* background-repeat: no-repeat; */
+  
     background-position: 0in;
     height: 100vh;
     width: 100%;
     background-color: blue;
     border-radius: 50% 0% 50% 0%;
     transform: scaleX(1.1);
-    /* transform: scaleY(1.1); */
+ 
     }
 
 .logo{
