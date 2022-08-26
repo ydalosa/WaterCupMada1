@@ -7,23 +7,28 @@
 body{
     background: #ff1744;
 
-    transition: all 25s ease;
+    transition: all 10s ease;
 }
 
 .bg-active{
     background: #2ecc71;
 }
-
+.container{
+    display: flex;
+}
 
 #banner{
-    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.2)),url(madagascar52.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.2)),url(Madagascar221.png);
     background-size: cover;
-    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-position: 0in;
     height: 100vh;
+    width: 100%;
     background-color: blue;
     border-radius: 50% 0% 50% 0%;
     transform: scaleX(1.1);
-}
+    /* transform: scaleY(1.1); */
+    }
 
 .logo{
     width: 70px;
