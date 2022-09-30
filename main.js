@@ -16,7 +16,7 @@ menuBtn.onclick = function(){
 
 // :::::::::::::
 
-const words =["Vita soa amantsara Présentation officielle APR",""," Roso ny dia ","Ho an'i Tanindrazana","Lasa nanentanana Ambohimandroso","Ndao"]
+const words =["Vita soa amantsara Présentation officielle APR",""," Roso ny dia ","Ho an'i Tanindrazana","Vita fanentanana Ambohimandroso","Ndao"]
 let cursor = gsap.to('.cursor', {opacity: 0, ease:"power2.inOut", repeat:-1})
 
 let boxTl = gsap.timeline()
