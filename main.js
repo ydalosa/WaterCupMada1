@@ -16,7 +16,7 @@ menuBtn.onclick = function(){
 
 // :::::::::::::
 
-const words =["Vita soa amantsara Présentation officielle APR",""," Roso ny dia ","Ho an'i Tanindrazana","Hiroso amin'i fanentanana tsika","Ndao"]
+const words =["Vita soa amantsara Présentation officielle APR",""," Roso ny dia ","Ho an'i Tanindrazana","Lasa nanentanana Ambohimandroso","Ndao"]
 let cursor = gsap.to('.cursor', {opacity: 0, ease:"power2.inOut", repeat:-1})
 
 let boxTl = gsap.timeline()
@@ -37,7 +37,7 @@ words.forEach(word => {
 
 // ::::::::
 function bgChanger() {
-    if(this.scrollY > this.innerHeight / 1.3 ){
+    if(this.scrollY > this.innerHeight / 1.9 ){
         document.body.classList.add("bg-active");
     } else {
          document.body.classList.remove("bg-active");
